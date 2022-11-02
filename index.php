@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="main/assets/img/Icon.ico" alt="Icon-Aplus-Dessert">
+    <link rel="shortcut icon" href="Img/Ic_Epasys.ico" alt="Icon-Epasys">
     <title>Epasys</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -142,18 +142,20 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="feature-item bg-light rounded p-4">
                             <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-eye text-white fs-4"></i>
+                                <!-- <i class="fa fa-eye text-white fs-4"></i> -->
+                                <i class="fa fa-car text-white fs-4"></i>
+
                             </div>
-                            <h5 class="mb-3">High Resolution</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Data Kendaraan</h5>
+                            <p class="m-0">Admin dapat mengecek data kendaraan selama aktivitas parkir</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="feature-item bg-light rounded p-4">
                             <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-layer-group text-white fs-4"></i>
+                            <i class="fa fa-qrcode text-white fs-4" aria-hidden="true"></i> 
                             </div>
-                            <h5 class="mb-3">Retina Ready</h5>
+                            <h5 class="mb-3">Scan Qr Code</h5>
                             <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </div>
                     </div>

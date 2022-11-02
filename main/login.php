@@ -12,13 +12,20 @@
     if(isset($_GET['pesan'])){
         if($_GET['pesan']=="gagal"){
             // echo "<div class='alert'>Username dan Password tidak sesuai !</div>";
+			// $alert ="<script>
+			// 	Swal({
+			// 		title: 'Error!',
+			// 		text: 'Username dan password anda tidak sesuai',
+			// 		type: 'warning'
+			// 	  })
+			//  </script>";
 			$alert ="<script>alert('Username dan Password tidak sesuai') </script>";
 			echo $alert;
         }
     }
     ?>
 
-	<img class="wave" src="LoginAssets/img/wave_2.png">
+	<img class="wave" src="LoginAssets/img/Vector.svg">
 	<div class="container">
 		<div class="img">
 			<img src="LoginAssets/img/bgLogin.svg">
@@ -47,12 +54,13 @@
             	</div>
             	<a href="#">Forgot Password?</a>
             	<!-- <input type="submit" class="btn" value="Login"> -->
-				<input type="submit" class="btn" value="Login">
+				<input type="submit" class="btn" value="Login" id="tombol">
             </form>
         </div>
     </div>
 
 
     <script type="text/javascript" src="LoginAssets/js/main.js"></script>
+	<script src="js/sweetalert2.all.min.js"></script>
 </body>
 </html>
