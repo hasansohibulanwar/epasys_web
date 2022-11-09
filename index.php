@@ -73,8 +73,8 @@
                             <h1 class="text-white mb-4 animated slideInDown">Electronic Parking System </h1>
                             <p class="text-white pb-3 animated slideInDown">Aplikasi Parkir berbasis Electronic untuk membuat proses penulisan 
                                 manual nomer parkir menjadi lebih efesiensi waktu dan simpel</p>
-                            <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Download</a>
-                            <a href="#contact" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+                            <a href="main/login.php" target="_blank" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Get Started</a>
+                            <a href="#dwonload" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Dwonload</a>
                         </div>
                         <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
                             <div class="owl-carousel screenshot-carousel">

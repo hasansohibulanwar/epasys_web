@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="shortcut icon" href="../Img/Ic_Epasys.ico" alt="Icon-Epasys">
 	<title>Epasys Login Form</title>
 	<link rel="stylesheet" type="text/css" href="LoginAssets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
@@ -21,6 +22,7 @@
 			//  </script>";
 			$alert ="<script>alert('Username dan Password tidak sesuai') </script>";
 			echo $alert;
+	
         }
     }
     ?>
