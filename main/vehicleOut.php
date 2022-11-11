@@ -12,7 +12,7 @@
 	
 	<!-- SIDEBAR -->
 	<?php
-		$page="vehicleIn";
+		$page="vehicleOut";
 		include 'includes/sidebar.php'
 	?>
 	<!-- SIDEBAR -->
@@ -36,7 +36,7 @@
 						</li>
 						<li><i class='bx bx-chevron-right' ></i></li>
 						<li>
-							<a class="active" href="#">Kendaraan Masuk</a>
+							<a class="active" href="#">Kendaraan Keluar</a>
 						</li>
 					</ul>
 				</div>

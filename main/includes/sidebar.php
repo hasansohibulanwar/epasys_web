@@ -14,23 +14,36 @@
 
 			<li>
 			<a href="vehicleIn.php" class="<?php if($page=="vehicleIn") {echo "active";}?>">
-				<i class="bx icon"><ion-icon name="enter-outline"></ion-icon></i>Kendaraan Masuk</a>
+				<!-- <i class="bx icon"><ion-icon name="enter-outline"></ion-icon></i>Kendaraan Masuk</a> -->
+				<i class='bx bx-log-in icon'></i>Kendaraan Masuk</a>
 			</li>
 
 			<li>
-				<a href="#"><i class='bx icon'><ion-icon name="exit-outline"></ion-icon></i>Kendaraan Keluar</a>
+			<a href="vehicleOut.php" class="<?php if($page=="vehicleOut") {echo "active";}?>">
+				<!-- <i class='bx icon'><ion-icon name="exit-outline"></ion-icon></i>Kendaraan Keluar</a> -->
+				<i class='bx bx-log-out icon'></i>Kendaraan Keluar</a>
+				<!-- <i class='bx icon'>
+				<svg width="13" height="13" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M20.769 11.9997L7.99121 11.9997" stroke="#14193F" stroke-width="2" stroke-linecap="square"/>
+				<path d="M18.229 8.7251L21.5186 12.0001L18.229 15.2761" stroke="#14193F" stroke-width="2" stroke-linecap="square"/>
+				<path d="M13.0054 16.625L13.0054 21.25L2.48144 21.25L2.48144 2.75L13.0054 2.75L13.0054 7.375" stroke="#14193F" stroke-width="2" stroke-linecap="square"/>
+				</svg>
+				</i>Kendaraan Keluar</a> -->
 			</li>
 
 			<li>
-				<a href="#"><i class='bx bxs-parking icon'></i>Laporan Aktivitas</a>
+			<a href="reportAct.php" class="<?php if($page=="report") {echo "active";}?>">
+					<i class='bx bxs-parking icon'></i>Laporan Aktivitas</a>
 			</li>
 			
 			<li>
-				<a href="#"><i class='bx bx-cycling icon'></i>Data Kendaraan</a>
+			<a href="vehicleData.php" class="<?php if($page=="vehicleData") {echo "active";}?>">
+					<i class='bx bx-cycling icon'></i>Data Kendaraan</a>
 			</li>
 
 			<li>
-				<a href="#"><i class='bx bxs-group icon' ></i>Data Users</a>
+			<a href="usersData.php" class="<?php if($page=="dataUsers") {echo "active";}?>">
+					<i class='bx bxs-group icon' ></i>Data Users</a>
 			</li>
 			
 			
@@ -44,7 +57,7 @@
 			</li>
 
 			<li>
-				<a href="#" class="logout"><i class='bx bxs-log-out-circle icon' ></i>Logout</a>
+				<a href="logout.php" class="logout"><i class='bx bxs-log-out-circle icon' ></i>Logout</a>
 			</li>
 
 

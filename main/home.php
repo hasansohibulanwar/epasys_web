@@ -7,7 +7,8 @@
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- <link href="css/style.css" rel="stylesheet"> -->
-	<title>E12 Home</title>
+	<link rel="shortcut icon" href="../Img/Ic_Epasys.ico" alt="Icon-Epasys">
+	<title>Epasys</title>
 </head>
 <body>
 	
@@ -52,20 +53,20 @@
 				<i class='bx bxs-parking'></i>
 					<span class="text">
 						<h3>100</h3>
-						<p>Kendaraan Parkir</p>
+						<p>Total Parkir</p>
 					</span>
 				</li>
 				<li>
-					<!-- <i class='bx bxs-group' ></i> -->
-					<i class="bx"><ion-icon name="enter-outline"></ion-icon></i>
+					<i class='bx bx-log-in' ></i>
+					<!-- <i class="bx"><ion-icon name="enter-outline"></ion-icon></i> -->
 					<span class="text">
 						<h3>80</h3>
 						<p>Kendaraan Masuk</p>
 					</span>
 				</li>
 				<li>
-					<!-- <i class='bx bxs-dollar-circle' ></i> -->
-					<i class='bx'><ion-icon name="exit-outline"></ion-icon></i>
+					<i class='bx bx-log-out' ></i>
+					<!-- <i class='bx'><ion-icon name="exit-outline"></ion-icon></i> -->
 					<span class="text">
 						<h3>20</h3>
 						<p>Kendaraan Keluar</p>
@@ -94,7 +95,7 @@
 						<tbody>
 							<tr>
 								<td>
-									<img src="https://static.wikia.nocookie.net/naruto/images/0/08/Sasuke_enojado_con_Itachi_por_no_querer_entrenar.png/revision/latest?cb=20160419042448&path-prefix=es">
+									<img src="https://asset.kompas.com/crops/ka_mbd5PywuY13S7a14jTP4otAY=/0x0:0x0/750x500/data/photo/2022/09/08/6319af0744044.jpg">
 									<p>John Doe</p>
 								</td>
 								<td>Vespa B 1232 UB</td>
