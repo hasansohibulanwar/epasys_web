@@ -42,10 +42,10 @@
 						</li>
 					</ul>
 				</div>
-				<a href="#" class="btn-download">
+				<!-- <a href="#" class="btn-download">
 					<i class='bx bxs-cloud-download' ></i>
 					<span class="text">Download PDF</span>
-				</a>
+				</a> -->
 			</div>
 
 			<ul class="box-info">
@@ -79,7 +79,7 @@
 			<div class="table-data">
 				<div class="order">
 					<div class="head">
-						<h3>Recent Orders</h3>
+						<h3>Recent Activity</h3>
 						<i class='bx bx-search' ></i>
 						<i class='bx bx-filter' ></i>
 					</div>
@@ -96,7 +96,7 @@
 							<tr>
 								<td>
 									<img src="https://asset.kompas.com/crops/ka_mbd5PywuY13S7a14jTP4otAY=/0x0:0x0/750x500/data/photo/2022/09/08/6319af0744044.jpg">
-									<p>John Doe</p>
+									<p>Candi</p>
 								</td>
 								<td>Vespa B 1232 UB</td>
 								<td>09:45</td>
@@ -105,7 +105,7 @@
 							<tr>
 								<td>
 									<img src="https://cdn.myanimelist.net/r/360x360/images/characters/9/131317.jpg?s=b53e816a48dfacc4bc7768066596800c">
-									<p>John Doe</p>
+									<p>Indra</p>
 								</td>
 								<td>Vespa B 1232 UB</td>
 								<td>09:45</td>
@@ -114,7 +114,7 @@
 							<tr>
 								<td>
 									<img src="https://diak46rl5chc7.cloudfront.net/orgs/126362/contents/ujhfmi76xrs8nbkv/ujhfmi76xrs8nbkv.png">
-									<p>John Doe</p>
+									<p>Hasan</p>
 								</td>
 								<td>Vespa B 1232 UB</td>
 								<td>09:45</td>
@@ -123,7 +123,7 @@
 							<tr>
 								<td>
 									<img src="https://static.wikia.nocookie.net/727da26e-95d3-4427-a863-97d6ca99f737">
-									<p>John Doe</p>
+									<p>Sohib</p>
 								</td>
 								<td>Vespa B 1232 UB</td>
 								<td>09:45</td>
@@ -132,7 +132,7 @@
 							<tr>
 								<td>
 									<img src="https://ovicio.com.br/wp-content/uploads/2021/07/20210716-noelle-clover-555x555.jpg">
-									<p>John Doe</p>
+									<p>Danu</p>
 								</td>
 								<td>Vespa B 1232 UB</td>
 								<td>09:45</td>
@@ -141,7 +141,8 @@
 						</tbody>
 					</table>
 				</div>
-				<div class="todo">
+
+				<!-- <div class="todo">
 					<div class="head">
 						<h3>Todos</h3>
 						<i class='bx bx-plus' ></i>
@@ -169,7 +170,7 @@
 							<i class='bx bx-dots-vertical-rounded' ></i>
 						</li>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 		</main>
 		<!-- MAIN -->
