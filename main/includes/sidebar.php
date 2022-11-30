@@ -46,7 +46,16 @@
 					<i class='bx bxs-group icon' ></i>Data Users</a>
 			</li>
 			
-			
+			<li>
+			<a href="satpamData.php" class="<?php if($page=="dataSatpam") {echo "active";}?>">
+				<i class='bx bx-shield-quarter icon'></i>Data Satpam</a>
+			</li>
+
+			<!-- <li>
+			<a href="usersData.php" class="<?php if($page=="dataSatpam") {echo "active";}?>">
+				
+			</li> -->
+
 			<li class="divider" data-text="Others">Others</li>
 			<li>
 				<a href="#"><i class='bx bxs-user-circle icon' ></i>My Profile</a>
