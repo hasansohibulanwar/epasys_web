@@ -1,5 +1,5 @@
 <?php 
-$koneksi = mysqli_connect("localhost","root","","study_phpmultiuser");
+$koneksi = mysqli_connect("localhost","root","","epasys");
  
 // Check connection
 if (mysqli_connect_errno()){

@@ -1,3 +1,12 @@
+<?php
+session_start();
+error_reporting(0);
+include('koneksi.php');
+error_reporting(0);
+if (!isset($_SESSION['email'])) {
+    header("Location: logout.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
