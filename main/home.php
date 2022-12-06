@@ -40,7 +40,7 @@ if (!isset($_SESSION['email'])) {
 		<main>
 			<div class="head-title">
 				<div class="left">
-					<h1>Selamat Pagi, Admin</h1>
+					<h1><?php include 'includes/greetings.php'?>, Administrator</h1>
 					<ul class="breadcrumb">
 						<li>
 							<a href="#">Home</a>
@@ -69,7 +69,7 @@ if (!isset($_SESSION['email'])) {
 					<i class='bx bx-log-in' ></i>
 					<!-- <i class="bx"><ion-icon name="enter-outline"></ion-icon></i> -->
 					<span class="text">
-						<h3>80</h3>
+						<h3><?php include 'counters/invehicles_count.php'?></h3>
 						<p>Kendaraan Masuk</p>
 					</span>
 				</li>
@@ -88,12 +88,12 @@ if (!isset($_SESSION['email'])) {
 			<div class="table-data">
 				<div class="order">
 					<div class="head">
-						<h3>Recent Activity</h3>
+						<h3>Grafik Aktivitas Parkir</h3>
 						<i class='bx bx-search' ></i>
 						<i class='bx bx-filter' ></i>
 					</div>
 					<table>
-						<thead>
+						<!-- <thead>
 							<tr>
 								<th>User</th>
 								<th>Kendaraan</th>
@@ -147,7 +147,7 @@ if (!isset($_SESSION['email'])) {
 								<td>09:45</td>
 								<td><span class="status process">Masuk</span></td>
 							</tr>
-						</tbody>
+						</tbody> -->
 					</table>
 				</div>
 

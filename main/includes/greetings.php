@@ -8,17 +8,15 @@
     
     //Start conditionals based on military time 
     if($numeric_date>=0&&$numeric_date<=11) 
-    $welcome_string="Good Morning, "; 
-    else if($numeric_date>=12&&$numeric_date<=17) 
-    $welcome_string="Good Afternoon, "; 
+    $welcome_string="Selamat Pagi "; 
+    else if($numeric_date>=12&&$numeric_date<=14) 
+    $welcome_string="Selamat Siang "; 
+    else if($numeric_date>=15&&$numeric_date<=17) 
+    $welcome_string="Selamat Sore "; 
     else if($numeric_date>=18&&$numeric_date<=23) 
-    $welcome_string="Good Evening, "; 
+    $welcome_string="Selamat Malam "; 
 
-    $adminid=$_SESSION['vpmsaid'];
-    $ret=mysqli_query($con,"SELECT * from employess where id='$adminid'");
-    $cnt=1;
-    while ($row=mysqli_fetch_array($ret)) {
     
-        echo $welcome_string ; }
+        echo $welcome_string ; 
  
 ?>

@@ -29,7 +29,7 @@
 		<main>
 			<div class="head-title">
 				<div class="left">
-				<h1>Selamat Pagi, Admin</h1>
+				<h1><?php include 'includes/greetings.php'?>, Administrator</h1>
 					<ul class="breadcrumb">
 						<li>
 							<a href="#">Main</a>
@@ -40,10 +40,10 @@
 						</li>
 					</ul>
 				</div>
-				<a href="#" class="btn-download">
+				<!-- <a href="#" class="btn-download">
 					<i class='bx bxs-cloud-download' ></i>
 					<span class="text">Download PDF</span>
-				</a>
+				</a> -->
 			</div>
 
 			
