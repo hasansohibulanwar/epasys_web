@@ -82,7 +82,7 @@
 				<td><?= $row["email"]?></td>
 				<td><?= $row["alamat"]?></td>
 				<td><?= $row["no_telepon"]?></td>
-				<td><img src="<?= $row["avatar"]?>" width="50px" height="50px"></td>
+				<td><img src="https://kelompok17stiebi.website/storage/<?= $row["avatar"]?>" width="50px" height="50px"></td>
                 
                 <td>
                 <a href="">Detail</a> |

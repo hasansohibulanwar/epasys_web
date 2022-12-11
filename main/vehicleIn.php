@@ -62,13 +62,14 @@
 			<th>Alamat</th>
 			<th>Foto_kendaraan</th>
 			<th>Foto_user</th>
+			<th>Waktu Masuk</th>
             </tr>
         </thead>
         <tbody>
 			<?php $i =1;?>
             <?php 
             include 'includes/fetch_functions.php';
-			$data = query("SELECT * FROM parkings WHERE status='IN'");
+			$data = query("SELECT * FROM parkings WHERE status='IN' ");
             
 			foreach($data as $row) :
 				// while ($row = mysqli_fetch_assoc($result)) :

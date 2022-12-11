@@ -49,7 +49,7 @@
 		<div class="table-data">
 			<div class="order">
 				<div class="head">
-					<h3>Recent Activity</h3>
+					<h3>Data Kendaraan</h3>
 					<i class='bx bx-search' ></i>
 					<i class='bx bx-filter' ></i>
 			</div>
@@ -79,7 +79,7 @@
                 <td><?= $row["no_polisi"]?></td>
 				<td><img src="<?= $row["foto_stnk"]?>" width="50px" height="50px"></td>
                 <td>
-					<img src="<?= $row["foto_kendaraan"]?>" width="50px" height="50px">
+					<img src="https://kelompok17stiebi.website/storage/<?= $row["foto_kendaraan"]?>" width="50px" height="50px">
 				</td>
                 <td>
                 <a href="">Detail</a> |
