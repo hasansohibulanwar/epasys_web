@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" href="../Img/Ic_Epasys.ico" alt="Icon-Epasys">
 	<title>Epasys</title>
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
 </head>
 <body>
 	
@@ -53,7 +55,7 @@
 					<i class='bx bx-search' ></i>
 					<i class='bx bx-filter' ></i>
 			</div>
-		<table id="example" class="display" style="width:100%">
+		<table id="tableNet" class="display" style="width:100%">
         <thead>
             <tr>
 			<th>No</th>
@@ -68,7 +70,7 @@
         <tbody>
 			<?php $i =1;?>
             <?php 
-            include 'includes/fetch_functions.php';
+            include 'model/functions.php';
 			$data = query("SELECT * FROM parkings WHERE status='IN' ");
             
 			foreach($data as $row) :
@@ -108,6 +110,10 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 	<script src="script.js"></script>
+	<!-- script table -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+	<script src="js/tableNet.js"> </script>
 
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

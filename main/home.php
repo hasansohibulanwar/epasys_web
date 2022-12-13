@@ -69,7 +69,8 @@ if (!isset($_SESSION['email'])) {
 					<i class='bx bx-log-in' ></i>
 					<!-- <i class="bx"><ion-icon name="enter-outline"></ion-icon></i> -->
 					<span class="text">
-						<h3><?php include 'counters/invehicles_count.php'?></h3>
+					<?php include 'counters/invehicles_count.php'?> 
+						<h3><?php echo $count_parkings ;?></h3>
 						<p>Kendaraan Masuk</p>
 					</span>
 				</li>
