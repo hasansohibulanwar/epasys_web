@@ -17,6 +17,6 @@
     $welcome_string="Selamat Malam "; 
 
     
-        echo $welcome_string ; 
+     echo $welcome_string ; 
  
 ?>

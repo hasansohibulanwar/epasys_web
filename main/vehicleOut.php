@@ -36,7 +36,7 @@
 						</li>
 						<li><i class='bx bx-chevron-right' ></i></li>
 						<li>
-							<a class="active" href="#">Kendaraan Masuk</a>
+							<a class="active" href="#">Kendaraan Keluar</a>
 						</li>
 					</ul>
 				</div>
@@ -45,58 +45,32 @@
 					<span class="text">Download PDF</span>
 				</a> -->
 			</div>
-			
 			<div class="table-data">
-			<div class="order">
-				<div class="head">
-					<h3>Recent Activity</h3>
-					<i class='bx bx-search' ></i>
-					<i class='bx bx-filter' ></i>
-			</div>
-		<table id="example" class="display" style="width:100%">
-        <thead>
-            <tr>
-			<th>No</th>
-			<th>Merek</th>
-			<th>Users</th>
-			<th>Alamat</th>
-            </tr>
-        </thead>
-        <tbody>
-			<?php $i =1;?>
-            <?php 
-            include 'includes/fetch_functions.php';
-			$data = query("SELECT * FROM parkings WHERE status='IN'");
-            
-			foreach($data as $row) :
-				// while ($row = mysqli_fetch_assoc($result)) :
-            ?>
-            <tr>
-                <td><?= $i ?></td>
-                <td><?= $row["nama"]?></td>
-                <td><?= $row["merek"]?></td>
-				<td><?= $row["nama"]?></td>
-				<td><?= $row["alamat"]?></td>
-				<td><img src="<?= $row["avatar"]?>" width="50px" height="50px"></td>
-                <td>
-                <a href="">Detail</a> |
-                <a href="">Hapus</a>
-            
-                </td>
-            </tr>
-			<?php $i++; ?>
-            <?php 
-			// endforeach; 
-				endforeach;
-			?>
-        </tbody>
-        <tfoot>
-            <tr>
-               
-            </tr>
-        </tfoot>
-    	</table>
-	</div>
+				<div class="order">
+					<div class="head">
+						<h3>Data Kendaraan Keluar</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>User</th>
+								<th>Kendaraan</th>
+								<th>Waktu</th>
+								<th>Status</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="https://asset.kompas.com/crops/ka_mbd5PywuY13S7a14jTP4otAY=/0x0:0x0/750x500/data/photo/2022/09/08/6319af0744044.jpg">
+									<p>John Doe</p>
+								</td>
+								<td>Vespa B 1232 UB</td>
+								<td>09:45</td>
+								<td><span class="status pending">Keluar</span></td>
+							</tr>
 			
 		</main>
 		<!-- MAIN -->
