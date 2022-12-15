@@ -394,6 +394,7 @@ nav .profile .profile-link a:hover {
 
 
 
+
 #content main .box-info {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -550,6 +551,12 @@ nav .profile .profile-link a:hover {
 #content main .table-data .todo .todo-list li:last-child {
 	margin-bottom: 0;
 }
+#content main .input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
 /* MAIN */
 /* CONTENT */
 
